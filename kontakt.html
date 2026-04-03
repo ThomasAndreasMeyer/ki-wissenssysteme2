@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt & Beratung | IT Services Meyer - KI Wissenssysteme</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-main">IT Services <span>Meyer.</span></span>
+                <span class="logo-sub">KI Wissenssysteme</span>
+            </a>
+            
+            <button class="mobile-toggle" aria-label="Menü öffnen" id="mobile-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav class="nav" id="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html#vorteile" class="nav-link">Vorteile</a></li>
+                    <li><a href="index.html#technologie" class="nav-link">Technologie</a></li>
+                    <li><a href="index.html#branchen" class="nav-link">Branchen</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section" style="padding-top: 150px; background-color: var(--bg-surface); min-height: 100vh;">
+        <div class="container contact-inner">
+            <div class="contact-info">
+                <span class="badge">Unverbindliches Gespräch</span>
+                <h1 class="section-title">Lassen Sie uns Ihre <br><span>KI-Strategie planen.</span></h1>
+                <p>Datensparsam & effizient: Kontaktieren Sie uns für ein unverbindliches 15-minütiges Erstgespräch, um die Potenziale von KI-Assistenzsystemen in Ihrem Unternehmen zu beleuchten.</p>
+                
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <strong>E-Mail:</strong><br>
+                        <a href="mailto:info@ki-wissenssysteme.de">info@ki-wissenssysteme.de</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>WhatsApp / Telefon:</strong><br>
+                        <a href="https://wa.me/4917624032313" target="_blank">+49 1762 4032313 (Chat starten)</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-wrapper">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Unternehmensname / Ansprechpartner*</label>
+                        <input type="text" id="name" name="name" required placeholder="Ihr Unternehmen GmbH">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Mail-Adresse*</label>
+                        <input type="email" id="email" name="email" required placeholder="business@beispiel.de">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Welche Use-Cases interessieren Sie?</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Geben Sie hier Ihre Stichpunkte ein..."></textarea>
+                    </div>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 1rem;">
+                        Unsere Informationsverarbeitung erfolgt gemäß unserer <a href="datenschutz.html">Datenschutzerklärung</a>.
+                    </p>
+                    <button type="submit" class="btn btn-primary btn-block">Anfrage senden</button>
+                    <div id="form-status" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-main">IT Services <span>Meyer.</span></span>
+                </a>
+                <p>© 2026 Thomas Meyer</p>
+            </div>
+            <div class="footer-links">
+                <a href="impressum.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutzerklärung</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
